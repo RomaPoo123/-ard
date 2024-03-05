@@ -4,7 +4,10 @@ import { CardBox } from "./CardBox.styled";
 import { CardImg } from "./CardImg.styled";
 import { Content } from "./CardContent";
 
-type CardPropsType = {
+
+
+
+export type CardPropsType = {
     title: string
     cardText : string
     url?: string
